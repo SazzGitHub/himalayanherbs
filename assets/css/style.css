@@ -12,3 +12,66 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    background-color: rgb(158, 158, 158);
+    position: relative;
+    padding: 30px 0;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.sub-container {
+    background-color: rgb(133, 133, 133);
+    padding: 20px 0;
+}
+
+.header-logo {
+    background-color: rgb(232, 232, 232);
+    height: 85px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.header-logo a:hover {
+    opacity: 0.8;
+}
+.header-logo img {
+    width: 250px;
+}
+.header-logo .medium-screen-logo {
+    display: none;
+}
+.header-logo .small-screen-logo {
+    display: none;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+    .header-logo img {
+        display: none;
+    }
+    .header-logo .medium-screen-logo {
+        display: flex;
+    }
+    .header-logo .small-screen-logo {
+        display: none;
+    }
+}
+
+
+
+
+.menu-bar
+.cart-and-profile
