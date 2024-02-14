@@ -1,3 +1,5 @@
+@import url('../../../css/shared/css/reset.css');
+
 /* 
     font-family: 'Forum', serif; 
 */
@@ -24,51 +26,82 @@ html, body {
 }
 
 .main-container {
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(255, 255, 255);
+    font-family: Barlow;
+    overflow: hidden;
     position: relative;
+    height: 100vh;
     padding: 30px 0;
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
-.sub-container {
-    background-color: rgb(133, 133, 133);
-    padding: 20px 0;
-}
 
+.top-header {
+    background-color: rgb(178, 178, 178);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header-logo {
-    background-color: rgb(232, 232, 232);
-    height: 85px;
-    width: 250px;
+    /* background-color: rgb(232, 232, 232); */
+    width: fit-content;
     display: flex;
     align-items: center;
 }
+.header-logo a {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Forum', serif;
+}
 .header-logo a:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
-.header-logo img {
-    width: 250px;
+.header-logo .first-word {
+    color: #23C8FF;
 }
-.header-logo .medium-screen-logo {
-    display: none;
+.header-logo .second-word {
+    color: #008B1E;
+    position: relative;
 }
-.header-logo .small-screen-logo {
-    display: none;
+.header-logo .second-word img {
+    position: absolute;
+    left: 70px;
+    bottom: 5px;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-    
-    .header-logo img {
-        display: none;
-    }
-    .header-logo .medium-screen-logo {
-        display: flex;
-    }
-    .header-logo .small-screen-logo {
-        display: none;
-    }
+
+.top-header .menu-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
 }
+.top-header .menu-bar ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #004D66;
+}
+.top-header .menu-bar ul li a:hover {
+    color: #007399;
+    border-bottom: solid 3px #007399;
+}
+
+.top-header .cart-and-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cart-and-profile a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #E5F9FF;
+    background-color: #0099CC;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 
 
