@@ -25,126 +25,115 @@ html, body {
     width: 100%;
 }
 
-.header-container {
-    font-family: Barlow;
-    padding-left: 90px;
-    padding-right: 90px;
-} 
+@import url('../../../css/shared/css/reset.css');
+
+/* 
+    font-family: 'Forum', serif; 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 
-.top-header {
-    position: relative;
-    background-color: rgb(249, 249, 249);
-    padding: 25px 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header-logo {
-    /* background-color: rgb(232, 232, 232); */
-    width: fit-content;
-    display: flex;
-    align-items: center;
-}
-.header-logo a {
-    font-size: 30px;
-    text-decoration: none;
-    font-family: 'Forum', serif;
-}
-.header-logo a:hover {
-    opacity: 0.9;
-}
-.header-logo .first-word {
-    color: #23C8FF;
-}
-.header-logo .second-word {
-    color: #008B1E;
-    position: relative;
-}
-.header-logo .second-word img {
-    position: absolute;
-    left: 70px;
-    bottom: 5px;
+/*
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    font-weight: 700;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
 }
 
-
-.top-header> .menu-bar> ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-}
-.top-header> .menu-bar> ul> li> a {
-    text-decoration: none;
-    font-size: 24px;
-    color: #004D66;
-}
-.top-header> .menu-bar> ul> li> a:hover {
-    color: #007399;
-    border-bottom: solid 3px #007399;
-}
-.mega-menu {
-    font-family: Barlow;
-    position: absolute;
-    top: 120%;
+html, body {
+    height: 100%;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+}
+
+.mega-menu {
     opacity: 0;
     visibility: hidden;
+    transition: all 0.5s linear 0s;
+
+    z-index: -900;
     left: 0;
-    box-shadow: 0px 10px 2px 3px Gray;
-    transition: 0.5s;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    /* font-size: 22px; */
+    font-weight: 500;
 }
-.menu-bar> ul> li:hover .mega-menu {
+
+/* style toggle class elements here */
+.toggle > label:after {
+    content: "\25BC";
+    /* font-size: 10px; */
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-input:not(:checked) ~ .mega-menu {
+    opacity: 0;
+    visibility: hidden;
+    z-index: -900;
+}
+
+.toggle-input:checked ~ .mega-menu {
     opacity: 1;
     visibility: visible;
+    z-index: 900;
+}
+
+.toggle-input:checked + label {
+    color: rgb(5,46,22);
+    background: rgb(132,204,22);
+}
+
+.toggle-input:checked ~ label:after {
+    content: "\25B2";
+    /* font-size: 10px; */
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+}
+
+/* here search container div design */
+.search-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     top: 100%;
+    padding: 15px;
+    background: rgb(132,204,22);
 }
-.mega-menu-items {
-    flex-basis: 25%;
-    margin: 1%;
-    padding-left: 70px;
-}
-.mega-menu-items h3 {
-    padding: 10px;
-    background-color: #E5F9FF;
-}
-.mega-menu .mega-menu-items ul li {
-    list-style: none;
-    padding: 7px;
-    text-decoration: none;
-    color: black;
-}
-.mega-menu .mega-menu-items ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    padding: 0 9px;
-    color: #004D66;
-}
-.mega-menu .mega-menu-items ul li a:hover {
-    color: #007399;
+.search-container h2 {
+    font-size: 24px;
 }
 
-
-.top-header> .cart-and-profile {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.cart-and-profile> a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #E5F9FF;
-    background-color: #0099CC;
-    padding: 10px;
-    border-radius: 5px;
+/* here hoverable design */
+.hover-links {
+    position: static;
 }
 
+.hover-links > a:after {
+    content: "\25BC";
+    /* font-size: 10px; */
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+}
 
-
-
-
-
-.menu-bar
-.cart-and-profile
+.hover-links:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    z-index: 900;
+}
