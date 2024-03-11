@@ -1,0 +1,14 @@
+________________________________________________________________________________________
+
+			   HIMALAYAN HERBS PAGE LISTINGS
+________________________________________________________________________________________
+
+Home ------ (index.html)
+
+About us ------ (about.html)
+
+Contact us ------ (contact.html)
+
+Products ------ (products.html)
+|
+|________Product Purchase ------ (purchase.html)

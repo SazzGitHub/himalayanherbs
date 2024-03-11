@@ -1,0 +1,121 @@
+________________________________________________________________________________________
+
+			   HIMALAYAN HERBS MAIN PAGE LISTINGS
+________________________________________________________________________________________
+
+-HEADER 
+      |_____COMPANY LOGO
+      |_____NAVIGATION MENU
+      |_____SEARCH BAR
+      |_____CART
+      |_____ACCOUNT/PROFILE
+      | 		  |_____LOGIN
+      | 		  |_____SIGN UP
+      |
+      |
+-HERO SECTION
+	    |_____LANDINGPAGE & IMAGE OF HERBS
+	    |_____COMPANY/PRODUCT TAGLINE
+	    |
+	    |
+-FEATURED HERBS
+	      |_____Selection of popular or seasonal herbs with images
+	      |
+	      |
+-HERBS CATEGORIES
+	      	|_____MEDICINAL HERBS
+      		|		   |_____Common Ailments
+      		|		   |_____Herbal Remedies
+      		|		   |_____Healing Properties
+	      	|_____CULINARY HERBS
+      		|		  |_____Cooking Essentials
+      		|		  |_____Popular Recipes
+      		|		  |_____Flavor Profiles
+	      	|_____AROMATIC HERBS
+      		|		  |_____Fragrance Favorites
+      		|		  |_____Aromatherapy Uses
+      		|		  |_____Herbal Infusions
+	      	|_____HERB BLENDS
+      		|	       |_____Custom Blends
+      		|	       |_____Seasonal Mixes
+      		|	       |_____Specialty Combinations
+	      	|_____TEA HERBS
+      		|	     |_____Herbal Tea Blends
+      		|	     |_____Health Infusions
+      		|	     |_____Brewing Tips
+	      	|_____HERB SEEDS & PLANTS
+      		|	               |_____Seed Varieties
+      		|	               |_____Potted Plants
+      		|	               |_____Gardening Tips
+	      	|_____ORGANIC HERBS
+      		|	     	|_____Certified Organic Options
+      		|	     	|_____Sustainable Practices
+      		|	     	|_____Organic Gardening
+	      	|_____SPICES
+      		|	  |_____Spicy Selections
+      		|	  |_____Global Spice Blends
+      		|	  |_____Culinary Adventures
+	      	|_____RARE & EXOTIC HERBS
+      		|	  	       |_____Uncommon Finds
+      		|	  	       |_____Exotic Uses
+      		|	  	       |_____Limited Editions
+	      	|_____HERB ACCESSORIES
+      		|	  	   |_____Herbalist Tools
+      		|	  	   |_____Storage Solutions
+      		|	  	   |_____Gift Sets
+	      	|_____HERB EDUCATION
+      		|	  |_____Herbology Basics
+      		|	  |_____Herbal Workshops
+      		|	  |_____Educational Resources
+	      	|_____SEASONAL HERBS
+      		|	  |_____Spring Harvest
+      		|	  |_____Summer Delights
+      		|	  |_____Fall Favorites
+	        |
+	        |
+-SPECIAL OFFERS
+	     |_____Special promotions, discounts, or featured products
+	     |
+	     |
+-NEWSLETTER SIGNUP
+	        |_____Subscribe to the newsletter for updates
+	        |
+	        |
+-FOOTER
+     |_____Navigation links
+     |_____Social media icons
+     |_____Copyright information
+-
+________________________________________________________________________________________
+
+		   Herbs Online Store - Product Details Page Wireframe
+________________________________________________________________________________________
+
+-HEADER 
+      |_____COMPANY LOGO
+      |_____NAVIGATION MENU
+      |_____SEARCH BAR
+      |_____CART
+      |_____ACCOUNT/PROFILE
+      | 		  |_____LOGIN
+      | 		  |_____SIGN UP
+      |
+      |
+-PRODUCT SHOWCASE
+	    |_____High-quality IMAGE Display
+	    |
+	    |
+	    |_____PRODUCT INFORMATION
+	    |    		   |_____Herb name, price, description, and possibly user reviews
+	    |			   |
+	    |			   |
+	    |_____ADD TO CART BUTTON
+	        		 |_____Allows users to add the herb to their shopping cart
+	    |			 |
+	    |			 |
+	    |_____RELATED PRODUCTS
+	        		|_____Suggests other herbs or products that complement the selected one
+	    |			|
+	    |			|
+	    |_____HERB BENEFITS
+	        	    |_____Highlights the benefits of the herb, whether culinary, medicinal, or aromatic
